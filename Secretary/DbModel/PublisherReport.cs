@@ -21,7 +21,7 @@ namespace Secretary.DbModel
     	}
     
     	public System.Guid Id { get; set; }
-    	public Nullable<short> Month { get; set; }
+    	public Nullable<byte> Month { get; set; }
     	public Nullable<short> Year { get; set; }
     	public Nullable<short> Publications { get; set; }
     	public Nullable<short> VideoPresentations { get; set; }

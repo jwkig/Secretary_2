@@ -22,5 +22,14 @@ namespace Secretary.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"C:\Proj\Secretary\Data\SecDB.sdf")]
+        public string DataBaseFileName {
+            get {
+                return ((string)(this["DataBaseFileName"]));
+            }
+        }
     }
 }
